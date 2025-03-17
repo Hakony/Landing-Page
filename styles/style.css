@@ -1,0 +1,139 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Corpo da página */
+body {
+    background-color: #FFF;
+    color: #010101;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to bottom, black 70%, #ffffff00 95%);
+    position: relative;
+    z-index: 10;
+    color: white;
+}
+
+#title-box img {
+    width: 120px;
+    cursor: pointer;
+    height: 15%;
+    color: #FFF;
+}
+
+/* #title h1 {
+    font-size: 28px;
+    text-transform: uppercase;
+} */
+
+/* Menu de navegação */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #333;
+    border-radius: 5px;
+}
+
+/* Botão de cadastro */
+#submit-btn {
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+#submit-btn:hover {
+    background-color: white;
+    color: #000;
+}
+
+/* Layout principal */
+main {
+    display: flex;
+    background-color: #FFF;
+    padding: 50px 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+/* Texto e botão */
+aside {
+    max-width: 500px;
+}
+
+.linha-divisoria {
+    width: 90%;
+    height: 1.6px;
+    background-color: #868585b6;
+    margin: 15px 0;
+}
+
+
+h2 {
+    font-size: 56px;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+span {
+    color: rgb(132, 14, 201);
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 15px 0;
+}
+
+/* Botão Saiba Mais */
+button {
+    background-color: #000;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    scale: 1.03;
+}
+
+/* Imagem */
+article img {
+    width: 580px;
+    max-width: 100%;
+    border-radius: 10px;
+}
